@@ -9,7 +9,7 @@ const Navbar = () => {
   const menuRef = useRef();
 
   const openMenu = () => {
-    menuRef.current.style.right = "0";
+    menuRef.current.style.right = "-20px";
   };
   const closeMenu = () => {
     menuRef.current.style.right = "-350px";

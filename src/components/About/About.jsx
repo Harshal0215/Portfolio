@@ -30,7 +30,7 @@ const About = () => {
           </div>
           <div className="skills">
             <div className="skill">
-              <p>HTML $ CSS</p>
+              <p>HTML & CSS</p>
               <hr style={{ width: "80%" }} />
             </div>
             <div className="skill">

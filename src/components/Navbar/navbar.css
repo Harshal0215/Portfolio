@@ -68,7 +68,7 @@
 .menuc {
   display: none;
 }
-@media (max-width: 750px) {
+@media (max-width:412px) {
   .navbar {
     margin: 20px 50px;
   }
@@ -95,24 +95,24 @@
   .menuo {
     display: block;
     position: fixed;
-    right: 30px;
+    right: 45px;
   }
   .menuc {
     display: block;
     position: absolute;
     top: 30px;
-    left: 290px;
+    left: 200px;
     width: 30px;
   }
   .nav-menu {
     position: fixed;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     top: 0;
     gap: 30px;
     background-color: #0b0a0ae9;
     padding-top: 100px;
-    width: 350px;
+    width: 300px;
     height: 900%;
     z-index: 2;
     transition: right 0.5s;
@@ -135,8 +135,10 @@
     transition: transform 0.4s ease-out;
   }
   .nav-menu li {
-    font-size: 30px;
-    padding-left: 100px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    padding-left: 80px;
     flex-direction: row;
     gap: 20px;
   }

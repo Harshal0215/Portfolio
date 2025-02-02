@@ -110,7 +110,7 @@
   transform: scale(1.2);
   transition: 0.3s;
 }
-@media (max-width: 768px) {
+@media (max-width:420px) {
   .about {
     gap: 80px;
     margin: 50px 70px;
@@ -131,8 +131,12 @@
     display: none;
   }
   .about-para {
-    font-size: 18px;
+    width: 95%;
+    font-size: 19px;
     line-height: 32px;
+  }
+  .about-para p{
+    text-align: justify;
   }
   .skill {
     gap: 20px;
@@ -145,13 +149,16 @@
     height: 6px;
   }
   .achievements {
+    display: flex;
+    gap: 10px;
+   
     justify-content: space-between;
   }
   .achievement {
     gap: 10px;
   }
   .achievement h1 {
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 600;
   }
   .achievement p {

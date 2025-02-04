@@ -11,7 +11,7 @@ const Contact = () => {
         event.preventDefault();
         const formData = new FormData(event.target);
     
-        formData.append("access_key", "your api key");
+        formData.append("access_key", import.meta.env.VITE_ApiKey);
     
         const object = Object.fromEntries(formData);
         const json = JSON.stringify(object);
